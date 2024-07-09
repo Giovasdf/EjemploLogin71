@@ -1,0 +1,12 @@
+/* Archivo: /scss/main.scss */
+
+/* Base */
+@import 'base/typography';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/form-login';
+
+/* Components */
+@import 'components/inputs';
+@import 'components/buttons';

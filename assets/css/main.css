@@ -1,0 +1,93 @@
+/* Archivo: /scss/main.scss */
+/* Base */
+/* Archivo: /scss/base/_typography.scss */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: #7ba33b;
+  text-decoration: none;
+}
+
+/* Layout */
+header {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar img {
+  margin-right: 10px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-container .remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.login-container .remember-me label {
+  display: flex;
+  align-items: center;
+}
+.login-container .remember-me input[type=checkbox] {
+  margin-right: 5px;
+}
+
+/* Components */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.google {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.google img {
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */
